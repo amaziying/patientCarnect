@@ -4,7 +4,7 @@ define([
   'backbone',
   'views/formView',
   'views/dashboardView'
-], function($, _, Backbone, FormView, dashBoardView){
+], function($, _, Backbone, FormView, DashBoardView){
   var AppRouter = Backbone.Router.extend({
     routes: {
       // Define some URL routes
