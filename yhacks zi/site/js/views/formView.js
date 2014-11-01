@@ -17,11 +17,7 @@ define(['jquery','underscore', 'backbone', 'text!templates/formView.html', 'view
         var name=$("#InputName").val();
         var data={};
         data.name=name;
-        data["name"]=name;
-        data={
-          "name": name,
-          "actionType": action
-        }
+
         this.renderNewPill();
       },
       renderNewPill: function(data){
